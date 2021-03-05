@@ -1,4 +1,4 @@
-# Sgrouples Ios
+# Homebrew iOS
 
 ## How do I install these formulae?
 
