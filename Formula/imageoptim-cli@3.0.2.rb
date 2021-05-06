@@ -12,7 +12,7 @@ class ImageoptimCliAT302 < Formula
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
-  depends_on "node@10" => :build
+  depends_on "node@12" => :build
   depends_on "yarn" => :build
 
   def install
