@@ -1,11 +1,8 @@
 # Homebrew iOS
 
-## How do I install these formulae?
+## How to update formula?
 
-`brew install sgrouples/ios/<formula>`
+`brew extract --version VERSION FORMULA sgrouples/homebrew-ios`
 
-Or `brew tap sgrouples/ios` and then `brew install <formula>`.
+When done, go to `/opt/homebrew/Library/Taps/sgrouples/homebrew-ios`, commit and push changes.
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
