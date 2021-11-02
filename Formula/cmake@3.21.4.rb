@@ -52,7 +52,8 @@ class CmakeAT3214 < Formula
 
     # Remove deprecated and unusable binary
     # https://gitlab.kitware.com/cmake/cmake/-/issues/20235
-    (pkgshare/"Modules/Internal/CPack/CPack.OSXScriptLauncher.in").unlink
+    #(pkgshare/"Modules/Internal/CPack/CPack.OSXScriptLauncher.in").unlink
+    # (above breaks, as with versioned formulae, there is no shared directory for them)
   end
 
   def caveats
