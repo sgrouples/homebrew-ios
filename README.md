@@ -4,7 +4,7 @@
 
 `brew extract --version VERSION FORMULA sgrouples/homebrew-ios`
 
-For Tuist: `brew extract tuist/tuist/tuist@VERSION sgrouples/homebrew-ios`
+For Tuist: `brew tap tuist/tuist && brew extract tuist/tuist/tuist@VERSION sgrouples/homebrew-ios`
 
 When done, go to `/opt/homebrew/Library/Taps/sgrouples/homebrew-ios`, commit and push changes.
 
