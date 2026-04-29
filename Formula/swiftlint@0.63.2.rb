@@ -7,8 +7,6 @@ class SwiftlintAT0632 < Formula
   license "MIT"
   head "https://github.com/realm/SwiftLint.git", branch: "main"
 
-  no_autobump! because: :bumped_by_upstream
-
   depends_on macos: :ventura
   depends_on xcode: "8.0"
 
